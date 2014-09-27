@@ -13,8 +13,9 @@ Read this:
 
 You may either download the file `angular-nsv-assertions.js` manually or use bower
 to also track it as an dependency for your project:
-
-  bower install angular-nsv-assertions --save
+```
+bower install angular-nsv-assertions --save
+```
 
 ## How to integrate assertions into your app
 
