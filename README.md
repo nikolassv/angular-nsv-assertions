@@ -69,7 +69,7 @@ will only be invoked when assertions are enabled. If you disable the assertions 
 You may easily disable assertions via the `AssertServiceProvider` in the `config` of your app:
 
 	angular.module('yourApp).config([
-		'angular-nsv-assertions.AsserServiceProvider',
+		'angular-nsv-assertions.AssertServiceProvider',
 		function (AssertServiceProvider) {
 			AssertServiceProvider.enable(false);
 		}
