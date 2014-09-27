@@ -9,6 +9,13 @@ Read this:
 - https://en.wikipedia.org/wiki/Assertion_(software_development)
 - http://www.pgbovine.net/programming-with-asserts.htm
 
+## How to install this module
+
+You may either download the file `angular-nsv-assertions.js` manually or use bower
+to also track it as an dependency for your project:
+
+  bower install angular-nsv-assertions --save
+
 ## How to integrate assertions into your app
 
 Make `angular-nsv-assertion` a depedency for your application:
