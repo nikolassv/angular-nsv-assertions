@@ -80,7 +80,7 @@
 						if (angular.isString(errorMsg)) {
 							errorObj = new AssertionError(errorMsg);
 						} else if (errorMsg instanceof Error) {
-							errirObj = errorMsg;
+							errorObj = errorMsg;
 						} else {
 							errorObj = new AssertionError();
 						}
